@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.links{
+    margin-top: 2.3rem;
+}
+.site-logo{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 5rem;
+}
+ul{
+    display: flex;
+    gap: 2rem 5rem;
+}    
+li{
+    list-style: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+img{
+    width: 150px;
+}
+.billboard-item img{
+    position: absolute;
+    height: 50rem;
+    width: 95rem;
+}
+.content{
+    position: relative;
+    text-align: center;
+    padding: 20rem 20rem;
+    color: white;
+    margin: auto;
+    width: 40%;
+}
+.content h1{
+    text-align: center;
+    font-size: 40px;
+}
+.content p{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+button{
+    border: 1px solid #fff;
+    padding: 10px 10px;
+    border-radius: 1.2rem;
+    background: transparent;
+}
+button:hover{
+    background-color: #B5651D;
+    transition: 0.5s;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.item1 {
+    border: 1px solid;
+   border-radius: 0.9rem;
+   padding: 14px 14px;
+   box-shadow: 0 3px 10px rgb(0 0 0 / 2);
+}
+.item2 {
+    border: 1px solid;
+    border-radius: 0.9rem;
+    padding: 14px 14px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 2);
+}
+.item3{
+    border: 1px solid;
+    border-radius: 0.9rem;
+    padding: 14px 14px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 2);
+}
+.service{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.box-item img{
+    position: absolute;
+    height: 50rem;
+    width: 95rem;
+}
+.box-content{
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    padding: 20rem 20rem;
+    color: white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: -26px 30px;
+}
